@@ -654,6 +654,10 @@ footer{
         border: 1px solid;
         background-size: cover;
     }
+    .accept-Usage input {
+  
+    margin-right: 42px;
+     }
     .divtype{
         display: flex;
         margin-right: 48px;
