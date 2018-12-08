@@ -623,6 +623,8 @@ footer{
         float: none;
 
     }
+    .checkpage2{
+        margin-right: 30px;}
     .incoming_messages img {
 
         margin-right: 60px;
@@ -656,8 +658,7 @@ footer{
         display: flex;
         margin-right: 48px;
     }
-    .checkpage2{
-        margin-right: 30px;}
+    
 
 
 }
