@@ -656,8 +656,9 @@ footer{
     }
     .accept-Usage input {
   
-    margin-right: 42px;
+       margin-right: 42px;
      }
+    
     .divtype{
         display: flex;
         margin-right: 48px;
