@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Taweel App</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="js/aos.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <link href="css/bootstrap-rtl.css" rel="stylesheet"/>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+   <style>
+       .email {
+           float: right;
+           margin-right: 37px;
+           direction: ltr;
+           display: inline-table;
+       }
+       .selection {
+           width: 90%;
+           background-color: #4f958c;
+           height: 23px;
+           color: #fff;
+       }
+   </style>
+</head>
+<body>
+
+<div align="center">
+    <div class="screen screen3  ">
+
+    <div class="artboard-head">
+        <ul class="listHead">
+            <li><a href="#"><img src="images/right_arrow.png" alt=""/></a></li>
+            <li ><a href="page1.html"><img src="images/home_icon.png"  onmouseover="this.src='images/home_icon_1.png'" onmouseout="this.src='images/home_icon.png'" alt=""/></a></li>
+            <li class="border"><a href="form_04.html"><img src="images/profile_icon.png" onmouseover="this.src='images/profile_icon_1.png'" onmouseout="this.src='images/profile_icon.png'" alt=""/></a></li>
+            <li class="border"><a href="page9.html"><img src="images/send_message_icon.png" onmouseover="this.src='images/send_message_icon_1.png'" onmouseout="this.src='images/send_message_icon.png'" alt=""/></a></li>
+            <li class="border"><a href="form_04.html"><img src="images/ibox_icon_3.png" onmouseover="this.src='images/ibox_icon_2.png'" onmouseout="this.src='images/ibox_icon_3.png'" alt=""/></a></li>
+            <li><a href="#"><img src="images/left_arrow.png" alt=""/></a></li>
+        </ul>
+    </div>
+
+
+        <div class="send">
+            <div>
+                <p class="email">: البريد الألكتروني</p>
+            <input type="text" class="inputField" >
+            </div>
+            <div>
+                <p class="email">: رقم الجوال</p>
+                <input type="text" class="inputField" >
+            </div>
+            <div>
+                <p class="email">: كلمة المرور</p>
+                <input type="text" class="inputField" >
+            </div>
+            <p class="email">: الجنس </p>
+            <select class="selection"  >
+                <option class="opti" value="volvo">ذكر</option>
+                <option class="opti" value="saab">أنثى</option>
+
+            </select>
+
+            <div>
+                <p class="email">: العمر</p>
+                <select class="selection"  >
+                    <option class="opti" value="volvo">10</option>
+                    <option class="opti" value="saab">20</option>
+                    <option class="opti" value="opel">30</option>
+                    <option class="opti" value="audi">40</option>
+                </select>
+            </div>
+            <div>
+                <p class="email">: مكان الاقامة</p>
+                <input type="text" class="inputField" >
+            </div>
+            <div>
+                <p class="email">: الحالة الاجتماعية</p>
+                <select class="selection"  >
+                    <option class="opti" value="volvo">أعزب</option>
+                        <option class="opti" value="saab">متزوج</option>
+                        <option class="opti" value="opel">مطلق</option>
+                </select>
+            </div>
+            <div>
+                <p class="email">: الوظيفة</p>
+                <input type="text" class="inputField" >
+            </div>
+            <div>
+                <p class="email">: طبيعة التسجيل</p>
+                <select class="selection"  >
+                    <option class="opti" value="volvo">مستخدم</option>
+                    <option class="opti" value="saab">غير  </option>
+
+                </select>
+            </div>
+
+        </div>
+
+        <div class="send" style="display: flex;margin-top: 32px; ">
+            <button class="bt5 bt1p5" >حفظ</button>
+
+        </div>
+        <div class="send" style="display: flex;">
+            <button class="bt5 bt1p5 bt1p7" >للدعم الفني</button>
+            <button class="bt6 bt2p5 bt2p7" >خروج</button>
+        </div>
+
+        <footer>
+
+        </footer>
+
+    </div>
+
+</div>
+
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("d2").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+
+</body>
+</html>

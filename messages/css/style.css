@@ -1,0 +1,642 @@
+body{
+    direction: rtl;
+    font-family: "DIN Next LT Arabic Light";
+}
+.screen{
+    width: 683px;
+    border: 1px solid;
+    background-size: cover;
+}
+.screen9 ,.screen3{
+    background-image: url(../images/background.png);
+}
+.listHead {
+    list-style: none;
+    display: inline-flex;
+    height: 82px;
+    margin-right: 0px;
+    background-color: #FAFAFA;
+    width: 680px;
+    border-bottom: 1px solid;
+}
+.listHead li{
+    width: 123px;
+    margin-top: 44px;
+
+
+}
+.border{
+    border-right: 1px solid #B2B3B3;
+    margin-bottom: 9px;
+}
+.photo img{
+    height: 40px;
+    margin-top: 80px;
+    margin-bottom: 28px;
+}
+
+.text{
+    height: 32px;
+    width: 260px;
+    background-color: #D6D6D6;
+    opacity: 0.6;
+    color: #4F958C;
+    margin-bottom: 50px;
+}
+.sendMesg{
+    background-color: transparent;
+    font-size: 14.5pt;
+}
+
+
+
+.send button {
+
+    border: 0 none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 15px auto;
+    display: block;
+    margin-bottom: 38px;
+}
+
+.bt1{
+    background-color: #eeba1c;
+    color: #ffffff;
+    margin-top: 60px;
+    width: 112px;
+    height: 28px;
+}
+.bt2{
+    background-color: #D6D6D6;
+    color: #4F958C;
+    width: 112px;
+    height: 28px;
+}
+.bt3{
+    background-color: #4F958C;
+    color: #ffffff;
+    margin-bottom: 72px;
+    width: 112px;
+    height: 28px;
+}
+
+/* screen2 */
+.screen1 ,.screen2{
+    background-image: url(../images/background2.png);
+
+}
+.photoScreen1 img{
+    margin-top: 140px;
+    width: 73px;
+    height: 78px;
+}
+
+.line1 hr {
+    margin-top: 12px;
+    margin-bottom: 23px;
+    border: 0;
+    border-top: 1px solid #AFAFAF;
+    width: 312px;
+}
+
+.roaia5 img{
+
+    height: 28px;
+}
+.roaia5 p{
+   color: #EEBA1C;
+    font-size: 13pt;
+    margin-top: -28px;
+}
+.number{
+    margin-right: -12px;
+}
+.line2{
+    margin-top: 24px;
+}
+.subscription p{
+    color: #4F958C;
+    font-size: 13pt;
+}
+
+.bt4{
+    width: 88px;
+    height: 20px;
+    background-color: #EEBA1C;
+    color: #ffffff;
+
+}
+.bt5{
+    width: 88px;
+    height: 20px;
+    background-color: #D6D6D6;
+    color: #4F958C;
+
+}
+.bt6{
+    width: 88px;
+    height: 20px;
+    background-color: #4F958C;
+    color: #ffffff;
+
+}
+
+
+
+/*srcreen 3*/
+.paragraph{
+    display: inline-grid;
+
+}
+.first{
+    margin-right: -72px;
+    float: right;
+}
+.second{
+    padding-right: 96px;
+    float: right;
+}
+.third{
+    float: right;
+    padding-right: 6px;
+}
+
+.accept-Usage{
+    float: right;
+    margin-bottom: 8px;
+    margin-top: 7px;
+    margin-right: -38px;
+
+}
+.accept-Usage input{
+    width: 20px;
+    height: 16px;
+}
+.accept{
+    padding-right: 80px;
+    color: #4F958C;
+    font-size: 13pt;
+}
+.acceptSend{
+    display: grid;
+}
+/*scree4 */
+
+.sendNew p{
+    padding-top: 24px;
+    color: #737373;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+.sendNew img{
+    width:76px;
+    height:44px
+}
+
+.select p{
+    float: right;
+    padding: 9px 24px 0 0;
+    color: #4F958C;
+    font-size: 12pt;
+}
+.box1{
+    background-color: #D6D6D6;
+    height: 88px;
+    width: 91%;
+    line-height: 8px;
+    margin-top: 43px;
+    margin-right: -13px;
+    margin-bottom: 16px;
+}
+
+.box1 .rightText{
+    float: right;
+    display: grid;
+    text-align: initial;
+    padding-top: 10px;
+    /* padding-right: 5px; */
+    color: #4F958C;
+    margin-right: -47px;
+}
+.left p{
+    padding-top: 30px;
+    direction: ltr;
+    color: #4F958C;
+}
+.checked {
+    color: #EEBA1C;
+}
+.star{
+    direction: ltr;
+    margin-top: 19px;
+}
+.nuchecked{
+    color: #ffffff;
+}
+.rate{color: #4F958C;}
+.left{
+    float: left;
+    padding-left: 15px;
+}
+
+.box2 .rightText,.box3 .rightText{
+    margin-right: 22px;
+}
+
+.bt1p3{
+    margin-right: 36px;
+}
+.bt6.bt2p3{
+    margin-right: 156px;
+}
+
+.writeRaia ,.namePerson{
+    color: #4F958C;
+    margin-top: 11px;
+}
+
+.namePerson{
+    color: #4F958C;
+    margin-top: -11px;
+    margin-right: -47px;
+}
+
+/* page 4*/
+.area{
+    width: 87%;
+    margin-right: -10px;
+    height: 76px;
+    border-radius: 19.86px;
+    background-color: #D6D6D6;
+    margin-top: 16px;
+}
+.bt1p4{
+    background-color: #EEBA1C;
+    color: #fff;
+    width: 96px;
+    height: 24px;
+}
+.skills{
+    height: 77px;
+}
+.rightText{
+    width: 44px;
+    background-color: #D6D6D6;
+    float: right;
+    margin-right: 50px;
+    text-align: center;
+
+}
+.rightText p{
+    color: #4F958C;
+}
+
+.skills {
+    text-align: end;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+.leftSkill{
+    width: 60%;
+    /* height: 14px; */
+    margin-right: 84px;
+}
+.html {    width: 97%;background-color: #4EAE54;padding: initial;height: 19px;}
+.css {    width: 27%;background-color: #2196F5;padding: initial;height: 19px;}
+.js {    width: 13%;background-color: #FFEB3A;padding: initial;height: 19px;}
+.php {    width: 9%;background-color: #FD9802;padding: initial;height: 19px;}
+.vue {    width: 27%;background-color: #F44234;padding: initial;height: 19px;}
+
+
+.sk{
+    display: flex;
+    padding-top: 4px;
+}
+.sk span{
+    color: #4F958C;
+    padding-right: 8px;
+    padding-left: 5px;
+}
+.area2{
+    width: 87%;
+    margin-right: -10px;
+    height: 52px;
+    border-radius: 19.86px;
+    background-color: #F4F4F4;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #4F958C;
+    text-align: initial;
+
+}
+
+/*screen 5*/
+.screen5{
+    background-image: url("../images/background1.png");
+}
+.inputField{
+    width: 90%;
+    border-radius: 20px;
+    border: 0;
+    background-color: #4F958C;
+}
+
+.email {
+    float: right;
+    margin-right: 37px;
+    direction: ltr;
+}
+
+.choice{
+    width: 90%;
+    height: 23px;
+    background-color: #4F958C;
+}
+.bt1p5 ,.bt2p5{
+    background-color: #EEBA1C;
+    width: 96px;
+    height: 28px;
+    color: #fff;
+}
+
+.bt1p7{
+    background-color: #D6D6D6;
+    color: #4F958C;
+}
+
+.bt2p7{
+    background-color: #4F958C;
+    color: #ffffff;
+}
+
+
+
+.male{
+    padding-bottom: 7px;
+    border-bottom: 2px solid #4F958C;
+}
+.male span , .female span{
+    margin-right: -99px;
+    font-size: 15px;
+}
+.female{
+    padding-top : 7px;
+
+}
+
+.type{
+    width: 100%;
+    float: unset;
+    margin-right: -191px;
+}
+.photorow{
+    margin-right: 561px;
+}
+.service_01 .radio_condition > input[type="radio"]:checked + span {
+    background-color: #4f958c;
+    border: 0;
+    margin-right: 39px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+/* page 9*/
+
+.incoming_messages {
+    display: block;
+    max-width: 215px;
+    position: relative;
+    right: -254px;
+}
+
+.incoming_messages img{
+    width: 135px;
+    height: 37px;
+    margin-top: 100px;
+    margin-right: 27px;
+    margin-bottom: 8px;
+
+
+}
+.incoming_messages > h3 {
+    color: #4f958c;
+    font-family: "Myriad Pro";
+    font-weight: 700;
+    margin: 0;
+    position: absolute;
+    top: 101px;
+    left: 38px;
+}
+.tablelist {
+    background-image: url(../images/box_message.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 255px;
+    width: 90%;
+}
+
+.rightTable li{
+    border-bottom: 1px solid #AFAFAF;
+    width: 169px;
+    padding-right: 3px;
+}
+.rightTable li img{
+    width: 13px;
+    float: right;
+    padding-top: 5px;
+}
+
+.lefttable{
+    margin-right: 121px;
+}
+.rightTable li:hover {
+    color: #EEBA1C;
+}
+.rightTable {
+    float: right;
+    padding-top: 98px;
+    list-style: none;
+}
+
+
+
+
+.pagination {
+    padding-top: 25px;
+    /* float: right; */
+    margin-right: -7px;
+    direction: ltr;
+    font-size: 12pt;
+    color: #737373;
+    margin-bottom: -14px;
+}
+
+.pagination > ul {
+    display: block;
+    list-style: outside none none;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+.pagination li:first-child, .pagination li:last-child {
+    padding: 0 8px;
+}
+.pagination li {
+    display: inline-block;
+    font-family: 'Myriad Pro';
+    font-weight: 700;
+}
+.pagination > ul > li > a {
+    color: #737373;
+    display: block;
+    text-decoration: none;
+}
+.pagination > ul > li > a img {
+    max-width: 5px;
+}
+
+.pagination > ul > li > a:hover {
+    color: #EEBA1C;
+
+}
+/* screen 8 */
+.photo8{
+    width: 76px;
+    height: 65px;
+    margin-top: 88px;
+    margin-bottom: 24px;
+}
+
+.bt1p8{
+    background-color:  #EEBA1C;
+    width: 252px;
+    height: 28px;
+    color: #4f958c;
+}
+.photo9{
+    margin-top: 52px;
+    margin-bottom: 20px;
+}
+.bt2p8{
+    width: 249px;
+    height: 25px;
+    background-color: #4f958c;
+    color: #EEEEEE;
+    direction: ltr;
+
+}
+.bt3p8{
+    color: #4f958c;
+    background-color: #D6D6D6;
+    width: 121px;
+    height: 25px;
+
+}
+
+/**/
+.selection{
+    width: 91%; background-color:#4f958c;
+}
+.opti{
+    background-color: #EEBA1C;
+    border-bottom: 2px solid #4f958c;
+}
+footer{
+    height: 50px;
+    background-color: #D6D6D6;
+    margin-top: 100px;
+}
+
+
+
+@media screen and (max-width: 677px) {
+    .rightTable {
+
+        padding-top: 82px;
+
+    }
+
+    .listHead {
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+    footer{
+        margin-top: 40px;
+    }
+    .rightText {
+        width: 44px;
+        background-color: #D6D6D6;
+        float: right;
+        margin-right: 30px;
+    }
+    .email{
+        float: right;
+
+        direction: ltr;
+    }
+    .incoming_messages {
+        display: block;
+        max-width: 215px;
+        position: relative;
+        right: -140px;
+    }
+    .rightTable{
+        float: right;
+        padding-top: 71px;
+        margin-right: -30px;
+        list-style: none;
+
+    }
+    .lefttable{
+        margin-right: -8px;
+    }
+    .pagination {
+        padding-top: 25px;
+        float: none;
+        margin-right: -7px;
+
+
+    }
+    .tablelist{
+        height: 226px;
+    }
+
+    .screen1 , .screen2 , .screen3 ,.screen4 ,.screen5{
+        width:100%;
+    }
+    .screen{
+        width: 100%;
+        border: 1px solid;
+        background-size: cover;
+    }
+    .divtype{
+        display: flex;
+        margin-right: 48px;
+    }
+
+
+}

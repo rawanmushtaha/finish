@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Taweel App</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="js/aos.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <link href="css/bootstrap-rtl.css" rel="stylesheet"/>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <style>
+
+        .radio-dropdown {
+            direction: ltr;
+        }
+        .service_01 {
+            display: inline-block;
+            position: relative;
+        }
+        .service_01 .radio_condition {
+            color: #737373;
+        }
+        .radio_condition > span:hover > .dropdown-list {
+            display: block;
+        }
+
+        .service_01 .radio_condition > input[type="radio"] + span {
+            border: 3px solid #737373;
+            border-radius: 10px;
+            display: inline-block;
+            float: right;
+            height: 12px;
+            margin: 8px 0 0 10px;
+            width: 12px;
+        }
+        .service_01 .radio_condition > input[type="radio"] {
+            display: none;
+        }
+        .service_01 .radio_condition {
+            color: #737373;
+        }
+        .radio_condition > span:hover > .dropdown-list {
+            display: block;
+        }
+
+        .service_01 .radio_condition > input[type="radio"] + span {
+            border: 3px solid #737373;
+            border-radius: 10px;
+            display: inline-block;
+            float: right;
+            height: 12px;
+            margin: 8px 0 0 10px;
+            width: 12px;
+        }
+        .service_01 .radio_condition > input[type="radio"] {
+            display: none;
+        }
+        .service_01 .radio_condition {
+            color: #737373;
+        }
+        .radio_condition > span:hover > .dropdown-list {
+            display: block;
+        }
+
+        .service_01 .radio_condition > input[type="radio"] + span {
+            border: 3px solid #737373;
+            border-radius: 10px;
+            display: inline-block;
+            float: right;
+            height: 12px;
+            margin: 8px 0 0 10px;
+            width: 12px;
+        }
+        .service_01 .radio_condition > input[type="radio"] {
+            display: none;
+        }
+        .radio-dropdown {
+            direction: ltr;
+            width: 90%;
+            background-color: #4F958C;
+            height: 23px;
+        }
+        .service_01 .radio_condition {
+            color: #737373;
+        }
+        .radio_condition > span:hover > .dropdown-list {
+            display: block;
+        }
+
+        .service_01 .radio_condition > input[type="radio"] + span {
+            border: 3px solid #737373;
+            border-radius: 10px;
+            display: inline-block;
+            float: right;
+            height: 12px;
+            margin: 8px 0 0 10px;
+            width: 12px;
+        }
+        .service_01 .radio_condition > input[type="radio"] {
+            display: none;
+        }
+        .radio_condition > span:hover > .dropdown-list {
+            display: block;
+        }
+        .dropp > span:hover > .dropdown-list{
+            display: block;
+        }
+        .dropdown-list {
+            background: #eeba1c none repeat scroll 0 0;
+            color: #fff;
+            display: none;
+            position: absolute;
+            top: 23px;
+            width: 250px;
+            z-index: 99;
+        }
+        .dropdown-list::after {
+            border-bottom: 12px solid transparent;
+            border-left: 12px solid #eeba1c;
+            content: "";
+            height: 0;
+            left: 2px;
+            position: absolute;
+            top: -5px;
+            transform: rotate(45deg);
+            width: 0;
+        }
+
+        .dropdown-list1::before {
+            background-color: #eeba1c;
+            border-radius: 0 40px 40px 0;
+            content: "";
+            height: 30px;
+            position: absolute;
+            right: -22px;
+            top: 53px;
+            width: 30px;
+        }
+        .dropdown-list label {
+            border-bottom: 1px solid #4f958c;
+            color: #4f958c;
+            cursor: pointer;
+            display: block;
+            font-weight: 400;
+            margin: 0 15px 0 25px;
+            padding: 6px 27px 10px 0;
+            position: relative;
+            text-decoration: none;
+        }
+        .dropdown-list label > input {
+            display: none;
+        }
+        .dropdown-list label:last-child {
+            border-bottom: none;
+        }
+        .dropdown-list input[type="radio"]:checked  {
+            background-color: #fff;
+        }
+        .dropdown-list input[type="radio"]  {
+            border: 6px solid #737373;
+            border-radius: 30px;
+            display: inline-block;
+            float: right;
+            height: 20px;
+            margin: 3px 0 0 6px;
+            position: absolute;
+            right: 0px;
+            width: 20px;
+        }
+        .service_02 {
+            margin-left: 20px;
+        }
+        /**form css-end**/
+        .service_01 .radio_condition > input[type="radio"]:checked  {
+            background-color: #4f958c;
+            border: 0;
+            margin-right: 39px;
+        }
+        .dropdown-list {
+            background: #eeba1c none repeat scroll 0 0;
+            color: #fff;
+            display: none;
+            /* float: left; */
+            /* left: 80%; */
+            position: absolute;
+            top: 23px;
+            width: 250px;
+            z-index: 99;
+        }
+        .arrowp{
+            margin-top: -17px;
+            margin-right: 300px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div align="center">
+    <div class="screen screen3  ">
+
+        <div class="artboard-head">
+            <ul class="listHead">
+                <li><a href="#"><img src="images/right_arrow.png" alt=""/></a></li>
+                <li ><a href="page1.html"><img src="images/home_icon.png"  onmouseover="this.src='images/home_icon_1.png'" onmouseout="this.src='images/home_icon.png'" alt=""/></a></li>
+                <li class="border"><a href="page5.html"><img src="images/profile_icon_1.png"  alt=""/></a></li>
+                <li class="border"><a href="page9.html"><img src="images/send_message_icon.png" onmouseover="this.src='images/send_message_icon_1.png'" onmouseout="this.src='images/send_message_icon.png'" alt=""/></a></li>
+                <li class="border"><a href="page6.html"><img src="images/ibox_icon_3.png" onmouseover="this.src='images/ibox_icon_2.png'" onmouseout="this.src='images/ibox_icon_3.png'" alt=""/></a></li>
+                <li><a href="#"><img src="images/left_arrow.png" alt=""/></a></li>
+            </ul>
+        </div>
+
+
+        <div class="send">
+            <div>
+                <p class="email">: البريد الألكتروني</p>
+                <input type="text" class="inputField" >
+            </div>
+            <div>
+                <p class="email">: رقم الجوال</p>
+                <input type="text" class="inputField" >
+            </div>
+            <div>
+                <p class="email">: كلمة المرور</p>
+                <input type="text" class="inputField" >
+            </div>
+            <div class="divtype">
+                <p class="email type">: الجنس </p>
+            </div>
+            <div>
+
+
+                <div class="radio-dropdown">
+                    <div class="service_01">
+                        <label  class="radio_condition photorow">
+                            <input name="condition8" class="radio_condition " value="1" type="radio"/>
+                            <span style="    border: 0; margin-right: 34px;">
+                                <img src="images/arrow.png" class="arrowp">
+            <div class="dropdown-list">
+                    <label for="update8">ذكر
+                    <input type="radio" name="function8" id="update8" value="update"/>
+                     <span></span>
+                     </label>
+                     <label for="cancel8">أنثى
+                    <input type="radio" name="function8" id="cancel8" value="cancel"/>
+                    <span></span>
+                    </label>
+             </div>
+                         </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="divtype">
+                    <p class="email type">: العمر </p>
+                </div>
+            </div>
+
+            <div>
+
+                <div class="radio-dropdown">
+                    <div class="service_01  ">
+                        <label  class="radio_condition">
+                            <input name="condition9" class="radio_condition" value="1" type="radio"/>
+                            <span style="    border: 0;     margin-right: 638px;">
+                                <img src="images/arrow.png" class="arrowp">
+                    <div class="dropdown-list">
+                    <label for="update9">15
+                    <input type="radio" name="function9" id="update9" value="update"/>
+                     <span></span>
+                    </label>
+                    <label for="cancel9">18
+                    <input type="radio" name="function9" id="cancel9" value="cancel"/>
+                    <span></span>
+                    </label>
+                     </div>
+          </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="email">: مكان الاقامة</p>
+                <input type="text" class="inputField" >
+            </div>
+
+            <div class="divtype">
+                <p class="email type" style=" padding-right: 43px;">: الحالة الاجتماعية </p>
+            </div>
+            <div>
+                <div class="radio-dropdown">
+                    <div class="service_01 ">
+                        <label  class="radio_condition">
+                            <input name="condition1" class="radio_condition" value="1" type="radio"/>
+                            <span style="    border: 0;     margin-right: 596px;">
+                                            <img src="images/arrow.png" class="arrowp">
+                        <div class="dropdown-list">
+                        <label for="update1">متزوج
+                        <input type="radio" name="function1" id="update1" value="update"/>
+                         <span></span>
+                        </label>
+                        <label for="cancel1">أعزب
+                        <input type="radio" name="function1" id="cancel1" value="cancel"/>
+                        <span></span>
+                        </label>
+                         </div>
+                         </span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <p class="email">: الوظيفة</p>
+                <input type="text" class="inputField" >
+            </div>
+            <div class="divtype">
+                <p class="email type" style=" padding-right: 43px;">: طبيعة التسجيل </p>
+            </div>
+            <div>
+
+                <div class="radio-dropdown">
+                    <div class="service_01">
+                        <label  class="radio_condition">
+                            <input name="condition" class="radio_condition" value="1" type="radio"/>
+                            <span style="    border: 0;        margin-right: 596px;">
+                                            <img src="images/arrow.png" class="arrowp">
+                        <div class="dropdown-list">
+                        <label for="update">مستخدم
+                        <input type="radio" name="function" id="update" value="update"/>
+                         <span></span>
+                        </label>
+                        <label for="cancel">غير مستخدم
+                        <input type="radio" name="function" id="cancel" value="cancel"/>
+                        <span></span>
+                        </label>
+                    </div>
+                      </span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="send" style="display: flex;margin-top: 16px; ">
+            <button class="bt5 bt1p5" >تسجيل</button>
+            <button class="bt6 bt2p5" >رجوع</button>
+        </div>
+
+        <footer>
+
+        </footer>
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
