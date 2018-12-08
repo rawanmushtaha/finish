@@ -598,6 +598,10 @@ footer{
 
         direction: ltr;
     }
+    .type{
+        margin-right: -48%;
+    }
+    
     .incoming_messages {
         display: block;
         max-width: 215px;
@@ -607,12 +611,24 @@ footer{
     .rightTable{
         float: right;
         padding-top: 71px;
-        margin-right: -30px;
+
         list-style: none;
 
     }
     .lefttable{
-        margin-right: -8px;
+        margin-right: 41%;
+        float: none;
+
+    }
+    .incoming_messages img {
+
+        margin-right: 60px;
+
+    }
+    .rightTable li {
+        border-bottom: 1px solid #AFAFAF;
+        width: 75px;
+        padding-right: 3px;
     }
     .pagination {
         padding-top: 25px;
