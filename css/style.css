@@ -601,7 +601,10 @@ footer{
     .type{
         margin-right: -48%;
     }
+    .incoming_messages > h3 {
     
+    left: 21px;
+}
     .incoming_messages {
         display: block;
         max-width: 215px;
@@ -653,9 +656,6 @@ footer{
         display: flex;
         margin-right: 48px;
     }
-.incoming_messages > h3 {
-    
-    left: 21px;
-}
+
 
 }
