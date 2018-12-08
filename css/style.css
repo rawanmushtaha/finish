@@ -653,6 +653,9 @@ footer{
         display: flex;
         margin-right: 48px;
     }
-
+.incoming_messages > h3 {
+    
+    left: 21px;
+}
 
 }
