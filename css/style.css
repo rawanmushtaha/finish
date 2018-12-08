@@ -627,7 +627,7 @@ footer{
     }
     .rightTable li {
         border-bottom: 1px solid #AFAFAF;
-       
+       width:100px;
         padding-right: 3px;
     }
     .pagination {
