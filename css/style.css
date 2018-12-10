@@ -581,10 +581,15 @@ footer{
     .first {
     margin-right: -110px;
      }
-    .second {
-    padding-right: 13%;
+   .second {
+    padding-right: 9%;
     float: right;
-        }
+      }
+
+      .third {
+    font-size: 13px;
+      }
+
 
     .listHead {
         width: 100%;
