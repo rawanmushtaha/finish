@@ -143,8 +143,6 @@ body{
 
 }
 
-
-
 /*srcreen 3*/
 .paragraph{
     display: inline-grid;
@@ -155,7 +153,7 @@ body{
     float: right;
 }
 .second{
-   padding-right: 18%;
+   padding-right: 15%;
     float: right;
 }
 .third{
