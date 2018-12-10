@@ -578,6 +578,13 @@ footer{
         padding-top: 82px;
 
     }
+    .first {
+    margin-right: -110px;
+     }
+    .second {
+    padding-right: 13%;
+    float: right;
+        }
 
     .listHead {
         width: 100%;
