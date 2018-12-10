@@ -553,6 +553,10 @@ body{
     height: 25px;
 
 }
+.second{
+   padding-right: 15%;
+    float: right;
+}
 
 /**/
 .selection{
