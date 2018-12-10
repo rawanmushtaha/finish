@@ -155,7 +155,7 @@ body{
     float: right;
 }
 .second{
-   padding-right: 22%;
+   padding-right: 18%;
     float: right;
 }
 .third{
@@ -586,6 +586,10 @@ footer{
     padding-right: 7%;
     float: right;
     }
+    .accept {
+    padding-right: 48px;
+    font-size: 14px;
+     }
 
       .third {
     font-size: 13px;
