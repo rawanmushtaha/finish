@@ -580,14 +580,7 @@ footer{
         padding-top: 82px;
 
     }
-    .first {
-    margin-right: -110px;
-     }
     
-   .second {
-    padding-right: 5%;
-    float: right;
-    }
     .accept {
     padding-right: 48px;
     font-size: 14px;
@@ -596,7 +589,21 @@ footer{
       .third {
     font-size: 13px;
       }
+.paragraph {
+    display: inline-grid;
+    width: 100%;
+    font-size: 13px;
+}
 
+.first {
+    margin-right: -27%;
+}
+
+.second {
+    padding-right: 20%;
+    float: right;
+    font-size: 13px;
+}
 
     .listHead {
         width: 100%;
