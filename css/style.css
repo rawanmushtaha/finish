@@ -566,6 +566,21 @@ body{
     background-color: #EEBA1C;
     border-bottom: 2px solid #4f958c;
 }
+/*page 22 */
+.paragraph1 p {
+    text-align: initial;
+    padding-right: 28%;
+}
+.accept2 {
+
+    color: #4F958C;
+    font-size: 13pt;
+}
+.acceptSend {
+    display: inline-flex;
+    padding-right: 7px;
+}
+
 footer{
     height: 50px;
     background-color: #D6D6D6;
@@ -579,6 +594,15 @@ footer{
 
         padding-top: 82px;
 
+    }
+     .acceptSend {
+        display: inline-flex;
+        width: 100%;
+        padding-right: 7px;
+    }
+     .paragraph1 p{
+        text-align: initial;
+        padding-right: 7px;
     }
     
     .accept {
